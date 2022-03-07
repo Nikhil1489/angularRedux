@@ -1,0 +1,5 @@
+<div *ngFor="let user of users">
+    <img src="{{user.avatar}}" alt="" />
+    <div>{{user.first_name}} {{user.last_name}}</div>
+    <div><a href="mailto:{{user.email}}">{{user.email}}</a></div>
+</div>
